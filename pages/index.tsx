@@ -17,9 +17,7 @@ import axios from "axios";
 const Home = () => {
   return (
     <div
-      className="bg-[rgb(36,36,36)] text-white 
-    h-screen snap-y snap-mandatory
-    overflow-y-scroll overflow-x-hidden z-0 scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#2d858b]/80"
+      className="bg-[rgb(36,36,36)] text-white h-screen snap-y snap-mandatory overflow-y-scroll overflow-x-hidden z-0 scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#2d858b]/80"
     >
       <Head>
         <title>Aro-Fawaz-Portfolio</title>
@@ -59,9 +57,9 @@ const Home = () => {
       </section>
 
       {/* Footer */}
-      <footer className="sticky bottom-1 w-20 h-24 mx-auto cursor-pointer">
+      <footer className="fixed bottom-1 w-20 h-24 right-5 cursor-pointer">
         <a href="#hero">
-          <div className="flex items-center justify-center">
+          <div className="flex justify-center">
             <img
               className="h-10 w-10 rounded-full filter grayscale hover:grayscale-0
               cursor-pointer"

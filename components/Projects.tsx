@@ -37,7 +37,7 @@ const Projects = () => {
                     transition ={{ duration: 1.2 }}
                     whileInView ={{ opacity: 1, y: 0, }}
                     viewport ={{ once: true }}
-                    className='w-65 h-60'
+                    className='w-70 h-60'
                      src="\static\youtube.png" alt="youtube web" />
 
                     <div className='space-y-5 px-0 md:px-10 max-w-6xl'>
