@@ -40,7 +40,7 @@ const Home = () => {
 
       {/* Experience */}
       <section id="experience" className="snap-center">
-        {/* <WorkExperience experiences={[]} /> */}
+        <WorkExperience />
       </section>
 
       {/* Skills */}

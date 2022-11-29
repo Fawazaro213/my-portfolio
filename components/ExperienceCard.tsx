@@ -26,31 +26,25 @@ function ExperienceCard() {
         }}
         className='w-32 h-32  
         xl:w-[200px] xl:h-[200px] object-cover object-top
-        ' src="public\static\gbodo.jpg" alt="" 
+        ' src="\static\gbodo.jpg" alt="" 
         />
 
         <div className='px-5 md:px-10'>
             <h4 className='text-4xl font-light'>Gbodo Cares</h4>
             <p className='font-bold text-2xl mt-1'>Web Instructor</p>
             <div className='flex space-x-2 my-2'>
-            {/* {experience?.technologies.map(technology => (
                 <img 
-                key= {technology._id}
                 className="h-10 rounded-full"
-                src= {urlFor(technology?.image).url()}
+                src= "\static\html-5.png"
                 />
-            ))} */}
             </div>
             <p className='uppercase py-3 text-gray-300'>
-                {/* {new Date(experience?.dateStarted).toDateString()} - {" "} {experience?.isCurrentlyWorkingHere 
-                ? "Present" : new Date(experience?.dateEnded).toDateString()} */}
+                {
+                new Date(20/1/2020).toDateString()} - {" "} {new Date(1/7/2022).toDateString()}
                 </p>
             <ul className='list-disc space-y-4 ml-5 text-lg h-30 overflow-y-scroll
             scrollbar-thin scrollbar-track-black scrollbar-thumb-[#2d858b]'>
-                {/* {experience?.points.map((point, i) => (
-                    <li key={i}>{point}</li>
-                ))
-                } */}
+                    <li>Developed and implemented engaging curriculum aligned with student learning objectives and in adherence with state and district requirements.Developed and implemented engaging curriculum aligned with student learning objectives and in adherence to state and district requirements.</li>
             </ul>
         </div>
     </article>
