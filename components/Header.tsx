@@ -64,7 +64,7 @@ function Header() {
               duration: 1.5
             }}
             className='flex items-center text-gray-300 cursor-pointer'>
-              <SocialIcon url='http://localhost:3000/#contact' network='email' fgColor='gray' bgColor='transparent' />
+              <SocialIcon url='#contact' network='email' fgColor='gray' bgColor='transparent' />
                 <p className='hidden uppercase 
                 md:inline-flex text-sm text-gray-400'>
                     Get in Touch
