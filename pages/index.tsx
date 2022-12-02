@@ -20,8 +20,12 @@ const Home = () => {
       className="bg-[rgb(36,36,36)] text-white h-screen snap-y snap-mandatory overflow-y-scroll overflow-x-hidden z-0 scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#2d858b]/80"
     >
       <Head>
-        <title>Aro-Fawaz-Portfolio</title>
-        <link rel="icon" href="/favicon.ico" />
+        <title>Aro Fawaz</title>
+        <meta name="title" content="Aro-okoya fawaz || @arofawaz123"/>
+        <meta name="description" content="Hi! I'm Aro Fawaz.A computer science student. Self-taught programmer. I specialize in fullstack development. I love to build good products and service to help solve problems in the society. I consider myself a responsible and orderly person. Ready to lead a team because I was born to lead."/>
+        <meta property="og:type" content="website"/>
+        {/* <meta property="og:url" content=""/> */}
+        <link rel="icon" type="image/png" href="/favicon.png" />
       </Head>
       {/* Header */}
       <Header />
@@ -63,7 +67,7 @@ const Home = () => {
             <img
               className="h-10 w-10 rounded-full filter grayscale hover:grayscale-0
               cursor-pointer"
-              src="/static/profile.jpg"
+              src="/static/logo.png"
               alt=""
             />
           </div>
