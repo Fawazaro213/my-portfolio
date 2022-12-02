@@ -56,7 +56,140 @@ const Projects = () => {
                           made a clone of YouTube with html ,CSS and JavaScript  </p>
                     </div>
             </div>
+          
+        <div
+            className="w-screen flex-shrink-0 snap-center
+            flex flex-col space-y-5 items-center justify-center p-20
+            md:p-44 h-screen"
+            >
+                  <motion.img
+                    initial ={{
+                      y: -100,
+                      opacity: 0
+                    }}
+                    transition ={{ duration: 1.2 }}
+                    whileInView ={{ opacity: 1, y: 0, }}
+                    viewport ={{ once: true }}
+                    className='w-70 h-60'
+                     src="\static\anime-nft.png" alt="AnimeNFT Market-place" />
+
+                    <div className='space-y-5 px-0 md:px-10 max-w-6xl'>
+                        <h4 className='text-4xl font-semibold text-center'>
+                          <span className='underline decoration-[#2d858b]/50'>Case Study 1 of 10:</span> 
+                          AnimeNFT Market-place</h4>
+
+                          <div className='flex items-center space-x-2 justify-center'>
+                            <img
+                            className='h-10 w-10'
+                            src="\static\html-5.png" alt="" />
+
         </div>
+
+                          <p className='text-lg text-center md:text-left'>
+                          made an AnimeNFT Market-place with Typescript, thrid-web, tailwind-css, JavaScript, Next-js, React</p>
+                    </div>
+            </div>
+
+            <div
+            className="w-screen flex-shrink-0 snap-center
+            flex flex-col space-y-5 items-center justify-center p-20
+            md:p-44 h-screen"
+            >
+                  <motion.img
+                    initial ={{
+                      y: -100,
+                      opacity: 0
+                    }}
+                    transition ={{ duration: 1.2 }}
+                    whileInView ={{ opacity: 1, y: 0, }}
+                    viewport ={{ once: true }}
+                    className='w-70 h-60'
+                     src="\static\quote.png" alt="Quote Web" />
+
+                    <div className='space-y-5 px-0 md:px-10 max-w-6xl'>
+                        <h4 className='text-4xl font-semibold text-center'>
+                          <span className='underline decoration-[#2d858b]/50'>Case Study 1 of 10:</span> 
+                          Quote Web</h4>
+
+                          <div className='flex items-center space-x-2 justify-center'>
+                            <img
+                            className='h-10 w-10'
+                            src="\static\html-5.png" alt="" />
+
+        </div>
+
+                          <p className='text-lg text-center md:text-left'>
+                          made a Quote Website with html ,CSS and JavaScript  </p>
+                    </div>
+            </div>
+
+            <div
+            className="flex-shrink-0 snap-center
+            flex flex-col space-y-5 items-center justify-center p-20
+            md:p-44 h-screen"
+            >
+                  <motion.img
+                    initial ={{
+                      y: -100,
+                      opacity: 0
+                    }}
+                    transition ={{ duration: 1.2 }}
+                    whileInView ={{ opacity: 1, y: 0, }}
+                    viewport ={{ once: true }}
+                    className='w-70 h-60'
+                     src="\static\landing-page.png" alt="Product Landing Page" />
+
+                    <div className='space-y-5 px-0 md:px-10 max-w-6xl'>
+                        <h4 className='text-4xl font-semibold text-center'>
+                          <span className='underline decoration-[#2d858b]/50'>Case Study 1 of 10:</span> 
+                          Product Landing Page</h4>
+
+                          <div className='flex items-center space-x-2 justify-center'>
+                            <img
+                            className='h-10 w-10'
+                            src="\static\html-5.png" alt="" />
+
+        </div>
+
+                          <p className='text-lg text-center md:text-left'>
+                          made a Product Landing Page with html and CSS</p>
+                    </div>
+            </div>
+
+            <div
+            className="w-screen flex-shrink-0 snap-center
+            flex flex-col space-y-5 items-center justify-center p-20
+            md:p-44 h-screen"
+            >
+                  <motion.img
+                    initial ={{
+                      y: -100,
+                      opacity: 0
+                    }}
+                    transition ={{ duration: 1.2 }}
+                    whileInView ={{ opacity: 1, y: 0, }}
+                    viewport ={{ once: true }}
+                    className='w-70 h-60'
+                     src="\static\nft.png" alt="NFT preview card" />
+
+                    <div className='space-y-5 px-0 md:px-10 max-w-6xl'>
+                        <h4 className='text-4xl font-semibold text-center'>
+                          <span className='underline decoration-[#2d858b]/50'>Case Study 1 of 10:</span> 
+                          NFT preview card</h4>
+
+                          <div className='flex items-center space-x-2 justify-center'>
+                            <img
+                            className='h-10 w-10'
+                            src="\static\html-5.png" alt="" />
+
+        </div>
+
+                          <p className='text-lg text-center md:text-left'>
+                          made an NFT preview card with html and CSS</p>
+                    </div>
+            </div>
+            </div>
+
 
         <div className='w-full absolute 
         top-[30%] bg-[#2d858b]/10 left-0 h-[300px] -skew-y-12'>
