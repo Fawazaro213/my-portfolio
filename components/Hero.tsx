@@ -27,7 +27,7 @@ function Hero() {
         <h2
           className="
             text-sm uppercase text-gray-500
-            pb-2 tracking-[12px]
+            pb-2 tracking-[10px] 
             "
         >
           Software Developer

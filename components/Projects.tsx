@@ -38,11 +38,11 @@ const Projects = () => {
                     transition ={{ duration: 1.2 }}
                     whileInView ={{ opacity: 1, y: 0, }}
                     viewport ={{ once: true }}
-                    className='w-70 h-60'
+                    className='w-70 h-60 sm:h-40'
                      src="\static\youtube.png" alt="youtube web" />
 
-                    <div className='space-y-5 px-0 md:px-10 max-w-6xl'>
-                        <h4 className='text-4xl font-semibold text-center'>
+                    <div className='space-y-5 px-0 md:px-10'>
+                        <h4 className='text-3xl md:text-4xl font-semibold text-center'>
                       <Link href={'https://github.com/Fawazaro213/youtube-clone'}>
                           <span className='underline decoration-[#2d858b]/50'>Case Study 1 of 5:</span> 
                       </Link>
@@ -90,8 +90,8 @@ const Projects = () => {
                     className='w-70 h-40'
                     src="\static\anime-nft.png" alt="AnimeNFT Market-place" />
 
-                    <div className='space-y-5 px-0 md:px-10 max-w-6xl'>
-                        <h4 className='text-4xl font-semibold text-center'>
+                    <div className='space-y-5 px-0 md:px-10'>
+                        <h4 className='text-3xl md:text-4xl font-semibold text-center'>
                       <Link href={'https://ebay-clone-p7nltqqwe-fawazaro213.vercel.app/'}>
                           <span className='underline decoration-[#2d858b]/50'>Case Study 2 of 5:</span> 
                     </Link>
@@ -149,11 +149,11 @@ const Projects = () => {
                     transition ={{ duration: 1.2 }}
                     whileInView ={{ opacity: 1, y: 0, }}
                     viewport ={{ once: true }}
-                    className='w-70 h-60'
+                    className='w-70 h-60 sm:40'
                      src="\static\quote.png" alt="Quote Web" />
 
-                    <div className='space-y-5 px-0 md:px-10 max-w-6xl'>
-                        <h4 className='text-4xl font-semibold text-center'>
+                    <div className='space-y-5 px-0 md:px-10'>
+                        <h4 className='text-3xl md:text-4xl font-semibold text-center'>
                           <Link href={'https://github.com/Fawazaro213/quote'}>
                           <span className='underline decoration-[#2d858b]/50'>Case Study 3 of 5:</span> 
                           </Link>
@@ -198,11 +198,11 @@ const Projects = () => {
                     transition ={{ duration: 1.2 }}
                     whileInView ={{ opacity: 1, y: 0, }}
                     viewport ={{ once: true }}
-                    className='max-w-40 h-60'
+                    className='max-w-40 h-60 sm:h-40'
                      src="\static\landing-page.png" alt="Product Landing Page" />
 
-                    <div className='space-y-5 px-0 md:px-10 max-w-6xl'>
-                        <h4 className='text-4xl font-semibold text-center'>
+                    <div className='space-y-5 px-0 md:px-10'>
+                        <h4 className='text-3xl md:text-4xl font-semibold text-center'>
                           <Link href={'https://github.com/Fawazaro213/project-landing-page-'}>
                           <span className='underline decoration-[#2d858b]/50'>Case Study 4 of 5:</span><br /> 
                           </Link>
@@ -243,8 +243,8 @@ const Projects = () => {
                     className='w-70 h-60'
                      src="\static\nft.png" alt="NFT preview card" />
 
-                    <div className='space-y-5 px-0 md:px-10 max-w-6xl'>
-                        <h4 className='text-4xl font-semibold text-center'>
+                    <div className='space-y-5 px-0 md:px-10 '>
+                        <h4 className='text-3xl md:text-4xl font-semibold text-center'>
                           <Link href={'https://github.com/Fawazaro213/NFT-preview-card'}>
                           <span className='underline decoration-[#2d858b]/50'>Case Study 5 of 5:</span> 
                           </Link>
