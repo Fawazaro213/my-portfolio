@@ -22,7 +22,7 @@ const Home = () => {
       <Head>
         <title>Aro Fawaz</title>
         <meta name="title" content="Aro-okoya fawaz || @arofawaz123"/>
-        <meta name="description" content="Hi! I'm Aro Fawaz.A computer science student. Self-taught programmer. I specialize in fullstack development. I love to build good products and service to help solve problems in the society. I consider myself a responsible and orderly person. Ready to lead a team because I was born to lead."/>
+        <meta name="description" content="Hi! I'm Aro Fawaz.A computer science student. Self-taught programmer. I specialize in fullstack development. I love to build good products and service to help solve problems in the society. I consider myself a responsible and orderly person."/>
         <meta property="og:type" content="website"/>
         {/* <meta property="og:url" content=""/> */}
         <link rel="icon" type="image/png" href="/favicon.png" />

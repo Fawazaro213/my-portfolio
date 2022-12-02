@@ -49,7 +49,7 @@ function About() {
             <span 
             className='underline decoration-[#2d858b]'>little</span>{" "} background</h4>
             <p className='text-base'>
-            Hi! I'm Aro Fawaz.A computer science student. Self-taught programmer. I specialize in fullstack development. I love to build good products and service to help solve problems in the society. I consider myself a responsible and orderly person. Ready to lead a team because I was born to lead.
+            Hi! I'm Aro Fawaz.A computer science student. Self-taught programmer. I specialize in fullstack development. I love to build good products and service to help solve problems in the society. I consider myself a responsible and orderly person.
             </p>
             <a href='\static\fawaz-resume.pdf' target='_blank' className='text-sm uppercase text-[#2d858b]
             pb-2 tracking-[5px]'>View resume</a>
