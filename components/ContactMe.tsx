@@ -31,12 +31,12 @@ function ContactMe() {
     }}
     className="flex relative flex-col text-center md:text-left md:flex-row max-w-7xl px-10 h-screen justify-evenly mx-auto items-center">
       <h4
-        className="absolute top-24 uppercase tracking-[20px] text-gray-500 text-1xl md:text-2xl"
+        className="absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl"
       >
         Contact
       </h4>
 
-      <div className="flex flex-col space-y-5 pt-[14%]">
+      <div className="flex flex-col space-y-5 pt-[17%] md:pt-[14%]">
         <h4 className="text-2xl font-semibold text-center">
           I have got what you need.{" "}
           <span className="underline decoration-[#2d858b]/50">Lets Talk.</span>
