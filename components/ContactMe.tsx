@@ -36,8 +36,8 @@ function ContactMe() {
         Contact
       </h4>
 
-      <div className="flex flex-col space-y-5 pt-[17%] md:pt-[14%]">
-        <h4 className="text-2xl font-semibold text-center">
+      <div className="flex flex-col space-y-5 pt-[35%] md:pt-[14%]">
+        <h4 className="text-2xl  font-semibold text-center">
           I have got what you need.{" "}
           <span className="underline decoration-[#2d858b]/50">Lets Talk.</span>
         </h4>
@@ -45,17 +45,17 @@ function ContactMe() {
         <div className="space-y-5">
           <div className="flex items-center space-x-5 justify-center">
             <PhoneIcon className="text-[#2d858b] h-7 w-7 animate-pulse" />
-            <p className="text-2xl">07082692458</p>
+            <p className="text-1xl md:text-2xl">07082692458</p>
           </div>
 
           <div className="flex items-center space-x-5 justify-center">
             <EnvelopeIcon className="text-[#2d858b] h-7 w-7 animate-pulse" />
-            <p className="text-2xl">arofawaz123@gmail.com</p>
+            <p className="text-1xl md:text-2xl">arofawaz123@gmail.com</p>
           </div>
 
           <div className="flex items-center space-x-5 justify-center">
             <MapPinIcon className="text-[#2d858b] h-7 w-7 animate-pulse flex-shrink-0" />
-            <p className="text-2xl">Calfos Drive, Lawanson, Surulere, Lagos</p>
+            <p className="text-1xl md:text-2xl">Calfos Drive, Lawanson, Surulere, Lagos</p>
           </div>
         </div>
 
