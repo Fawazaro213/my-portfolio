@@ -28,7 +28,7 @@ function Skills( {directionLeft} : Props) {
         <h3 className='uppercase absolute top-36 text-gray-500 text-sm tracking-[3px]'>
             Hover over a skill for current proficiency</h3>
 
-            <div className='grid grid-cols-2 md:grid-cols-4 gap-5'>
+            <div className='grid grid-cols-3 md:grid-cols-4 gap-5'>
                <Skill />
 
                <div className='group relative flex cursor-pointer '>
@@ -55,7 +55,7 @@ function Skills( {directionLeft} : Props) {
         h-24 w-24 md:w-28 md:h-28 xl:w-32 xl:h-32 rounded-full z-0'>
             <div className='flex items-center justify-center h-full'>
                 <p className='text-3xl 
-                items-center font-bold text-black opacity-100'>70%</p>
+                items-center font-bold text-black opacity-100'>95%</p>
             </div>
         </div>
     </div>
@@ -113,7 +113,7 @@ function Skills( {directionLeft} : Props) {
         h-24 w-24 md:w-28 md:h-28 xl:w-32 xl:h-32 rounded-full z-0'>
             <div className='flex items-center justify-center h-full'>
                 <p className='text-3xl 
-                items-center font-bold text-black opacity-100'>70%</p>
+                items-center font-bold text-black opacity-100'>50%</p>
             </div>
         </div>
     </div>
@@ -143,7 +143,206 @@ function Skills( {directionLeft} : Props) {
         h-24 w-24 md:w-28 md:h-28 xl:w-32 xl:h-32 rounded-full z-0'>
             <div className='flex items-center justify-center h-full'>
                 <p className='text-3xl 
-                items-center font-bold text-black opacity-100'>70%</p>
+                items-center font-bold text-black opacity-100'>50%</p>
+            </div>
+        </div>
+    </div>
+    <div className='group relative flex cursor-pointer '>
+        <motion.img
+        initial ={{
+            x: directionLeft ? -100 : 100,
+            opacity: 0
+        }}
+        transition ={{
+                duration: 1
+        }}
+        whileInView ={{
+            x: 0,
+            opacity: 1
+        }}
+        className='rounded-full border
+         border-gray-500 object-cover w-24 h-24 
+         md:w-28 md:h-28 xl:w-32 xl:h-32 filter
+         group-hover:grayscale transition duration-300
+         ease-in-out'
+        src="\static\typescript.png" alt="" />
+        <div className='absolute opacity-0 group-hover:opacity-80
+        transition duration-300 ease-in-out group-hover:bg-white
+        h-24 w-24 md:w-28 md:h-28 xl:w-32 xl:h-32 rounded-full z-0'>
+            <div className='flex items-center justify-center h-full'>
+                <p className='text-3xl 
+                items-center font-bold text-black opacity-100'>60%</p>
+            </div>
+        </div>
+    </div>
+
+    <div className='group relative flex cursor-pointer '>
+        <motion.img
+        initial ={{
+            x: directionLeft ? -100 : 100,
+            opacity: 0
+        }}
+        transition ={{
+                duration: 1
+        }}
+        whileInView ={{
+            x: 0,
+            opacity: 1
+        }}
+        className='rounded-full border
+         border-gray-500 object-cover w-24 h-24 
+         md:w-28 md:h-28 xl:w-32 xl:h-32 filter
+         group-hover:grayscale transition duration-300
+         ease-in-out'
+        src="\static\git.png" alt="" />
+        <div className='absolute opacity-0 group-hover:opacity-80
+        transition duration-300 ease-in-out group-hover:bg-white
+        h-24 w-24 md:w-28 md:h-28 xl:w-32 xl:h-32 rounded-full z-0'>
+            <div className='flex items-center justify-center h-full'>
+                <p className='text-3xl 
+                items-center font-bold text-black opacity-100'>80%</p>
+            </div>
+        </div>
+    </div>
+
+    <div className='group relative flex cursor-pointer '>
+        <motion.img
+        initial ={{
+            x: directionLeft ? -100 : 100,
+            opacity: 0
+        }}
+        transition ={{
+                duration: 1
+        }}
+        whileInView ={{
+            x: 0,
+            opacity: 1
+        }}
+        className='rounded-full border
+         border-gray-500 object-cover w-24 h-24 
+         md:w-28 md:h-28 xl:w-32 xl:h-32 filter
+         group-hover:grayscale transition duration-300
+         ease-in-out'
+        src="\static\tailwind.png" alt="" />
+        <div className='absolute opacity-0 group-hover:opacity-80
+        transition duration-300 ease-in-out group-hover:bg-white
+        h-24 w-24 md:w-28 md:h-28 xl:w-32 xl:h-32 rounded-full z-0'>
+            <div className='flex items-center justify-center h-full'>
+                <p className='text-3xl 
+                items-center font-bold text-black opacity-100'>75%</p>
+            </div>
+        </div>
+    </div>
+    <div className='group relative flex cursor-pointer '>
+        <motion.img
+        initial ={{
+            x: directionLeft ? -100 : 100,
+            opacity: 0
+        }}
+        transition ={{
+                duration: 1
+        }}
+        whileInView ={{
+            x: 0,
+            opacity: 1
+        }}
+        className='rounded-full border
+         border-gray-500 object-cover w-24 h-24 
+         md:w-28 md:h-28 xl:w-32 xl:h-32 filter
+         group-hover:grayscale transition duration-300
+         ease-in-out'
+        src="\static\phython.png" alt="" />
+        <div className='absolute opacity-0 group-hover:opacity-80
+        transition duration-300 ease-in-out group-hover:bg-white
+        h-24 w-24 md:w-28 md:h-28 xl:w-32 xl:h-32 rounded-full z-0'>
+            <div className='flex items-center justify-center h-full'>
+                <p className='text-3xl 
+                items-center font-bold text-black opacity-100'>65%</p>
+            </div>
+        </div>
+    </div>
+    <div className='group relative flex cursor-pointer '>
+        <motion.img
+        initial ={{
+            x: directionLeft ? -100 : 100,
+            opacity: 0
+        }}
+        transition ={{
+                duration: 1
+        }}
+        whileInView ={{
+            x: 0,
+            opacity: 1
+        }}
+        className='rounded-full border
+         border-gray-500 object-cover w-24 h-24 
+         md:w-28 md:h-28 xl:w-32 xl:h-32 filter
+         group-hover:grayscale transition duration-300
+         ease-in-out'
+        src="\static\mongo-db.png" alt="" />
+        <div className='absolute opacity-0 group-hover:opacity-80
+        transition duration-300 ease-in-out group-hover:bg-white
+        h-24 w-24 md:w-28 md:h-28 xl:w-32 xl:h-32 rounded-full z-0'>
+            <div className='flex items-center justify-center h-full'>
+                <p className='text-3xl 
+                items-center font-bold text-black opacity-100'>54%</p>
+            </div>
+        </div>
+    </div>
+    <div className='group relative flex cursor-pointer '>
+        <motion.img
+        initial ={{
+            x: directionLeft ? -100 : 100,
+            opacity: 0
+        }}
+        transition ={{
+                duration: 1
+        }}
+        whileInView ={{
+            x: 0,
+            opacity: 1
+        }}
+        className='rounded-full border
+         border-gray-500 object-cover w-24 h-24 
+         md:w-28 md:h-28 xl:w-32 xl:h-32 filter
+         group-hover:grayscale transition duration-300
+         ease-in-out'
+        src="\static\postman.png" alt="" />
+        <div className='absolute opacity-0 group-hover:opacity-80
+        transition duration-300 ease-in-out group-hover:bg-white
+        h-24 w-24 md:w-28 md:h-28 xl:w-32 xl:h-32 rounded-full z-0'>
+            <div className='flex items-center justify-center h-full'>
+                <p className='text-3xl 
+                items-center font-bold text-black opacity-100'>40%</p>
+            </div>
+        </div>
+    </div>
+
+    <div className='group relative flex cursor-pointer '>
+        <motion.img
+        initial ={{
+            x: directionLeft ? -100 : 100,
+            opacity: 0
+        }}
+        transition ={{
+                duration: 1
+        }}
+        whileInView ={{
+            x: 0,
+            opacity: 1
+        }}
+        className='rounded-full border
+         border-gray-500 object-cover w-24 h-24 
+         md:w-28 md:h-28 xl:w-32 xl:h-32 filter
+         group-hover:grayscale transition duration-300
+         ease-in-out'
+        src="\static\vs-code.png" alt="" />
+        <div className='absolute opacity-0 group-hover:opacity-80
+        transition duration-300 ease-in-out group-hover:bg-white
+        h-24 w-24 md:w-28 md:h-28 xl:w-32 xl:h-32 rounded-full z-0'>
+            <div className='flex items-center justify-center h-full'>
+                <p className='text-3xl 
+                items-center font-bold text-black opacity-100'>85%</p>
             </div>
         </div>
     </div>

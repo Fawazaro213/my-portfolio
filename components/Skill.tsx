@@ -31,7 +31,7 @@ function Skill({ directionLeft }: Props) {
         h-24 w-24 md:w-28 md:h-28 xl:w-32 xl:h-32 rounded-full z-0'>
             <div className='flex items-center justify-center h-full'>
                 <p className='text-3xl 
-                items-center font-bold text-black opacity-100'>70%</p>
+                items-center font-bold text-black opacity-100'>90%</p>
             </div>
         </div>
     </div>
