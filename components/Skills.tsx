@@ -28,7 +28,7 @@ function Skills( {directionLeft} : Props) {
         <h3 className='uppercase absolute top-36 text-gray-500 text-sm tracking-[3px]'>
             Hover over a skill for current proficiency</h3>
 
-            <div className='grid grid-cols-3 md:grid-cols-4 gap-5'>
+            <div className='grid grid-cols-3 md:grid-cols-4 gap-5 pt-[25%]'>
                <Skill />
 
                <div className='group relative flex cursor-pointer '>

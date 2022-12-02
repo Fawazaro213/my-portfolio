@@ -57,7 +57,7 @@ const Home = () => {
       </section>
 
       {/* Footer */}
-      <footer className="fixed bottom-1 w-20 h-24 right-5 cursor-pointer">
+      <div className="fixed bottom-1 w-20 h-15 right-2 md:bottom-3 md:right-5 cursor-pointer">
         <a href="#hero">
           <div className="flex justify-center">
             <img
@@ -68,7 +68,7 @@ const Home = () => {
             />
           </div>
         </a>
-      </footer>
+      </div>
     </div>
   );
 };

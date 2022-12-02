@@ -4,7 +4,7 @@ import React from 'react'
 function ExperienceCard() {
   return (
     <article className='flex flex-col rounded-lg items-center
-    space-y-7 flex-shrink-0 h-30 w-[500px] md:w-[600px] 
+    space-y-7 flex-shrink-0 h-30 w-[400px] md:w-[600px] 
     lg:w-[900px] snap-center bg-[#292929] p-10 
     hover:opacity-100 opacity-40 cursor-pointer
     transition-opacity duration-200 overflow-hidden
@@ -24,7 +24,7 @@ function ExperienceCard() {
         viewport = {{
             once: true
         }}
-        className='w-32 h-32  
+        className='w-20 h-20 m-0
         xl:w-[200px] xl:h-[200px] object-cover object-top
         ' src="\static\gbodo.jpg" alt="" 
         />
@@ -36,6 +36,14 @@ function ExperienceCard() {
                 <img 
                 className="h-10 rounded-full"
                 src= "\static\html-5.png"
+                />
+                <img 
+                className="h-10 rounded-full"
+                src= "\static\css.png"
+                />
+                <img 
+                className="h-10 rounded-full"
+                src= "\static\java-script.png"
                 />
             </div>
             <p className='uppercase py-3 text-gray-300'>

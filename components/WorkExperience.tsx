@@ -21,7 +21,7 @@ function WorkExperience() {
         text-gray-500 text-2xl'>
             Experience</h3>
 
-        <div className='w-full flex space-x-5 overflow-x-scroll p-10 snap-x
+        <div className='w-full flex space-x-5 overflow-x-scroll p-10 pt-[30%] md:pt-[9%] snap-x
         snap-mandatory scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#2d858b]/80'>
                 <ExperienceCard />   
         </div>

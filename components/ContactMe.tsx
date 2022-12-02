@@ -1,6 +1,7 @@
 import React from "react";
 import { PhoneIcon, MapPinIcon, EnvelopeIcon } from "@heroicons/react/24/solid";
 import { useForm, SubmitHandler } from "react-hook-form";
+import { motion } from "framer-motion";
 
 type Inputs = {
   name: string;
@@ -18,15 +19,24 @@ function ContactMe() {
     );
 
   return (
-    <div className="flex relative flex-col text-center md:text-left md:flex-row max-w-7xl px-10 h-screen justify-evenly mx-auto items-center">
-    {/* // <div className="h-screen relative flex overflow-hidden  md:text-left text-left md:flex-row max-w-2xl justify-evenly mx-auto items-center z-0"> */}
+    <motion.div
+      initial ={{
+        opacity: 0
+    }}
+    whileInView ={{
+        opacity: 1
+    }}
+    transition ={{
+        duration: 1.5
+    }}
+    className="flex relative flex-col text-center md:text-left md:flex-row max-w-7xl px-10 h-screen justify-evenly mx-auto items-center">
       <h4
         className="absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl"
       >
         Contact
       </h4>
 
-      <div className="flex flex-col space-y-5">
+      <div className="flex flex-col space-y-5 pt-[10%]">
         <h4 className="text-2xl font-semibold text-center">
           I have got what you need.{" "}
           <span className="underline decoration-[#2d858b]/50">Lets Talk.</span>
@@ -85,8 +95,11 @@ function ContactMe() {
             Submit
           </button>
         </form>
+        <footer className="text-white-700 text-center p-4 pt-0 mt-0">
+      © 2022 Aro-okoya Fawaz
+  </footer>
       </div>
-    </div>
+    </motion.div>
   );
 }
 
