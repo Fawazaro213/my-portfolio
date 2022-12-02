@@ -305,7 +305,7 @@ const Projects = () => {
                     transition ={{ duration: 1.2 }}
                     whileInView ={{ opacity: 1, y: 0, }}
                     viewport ={{ once: true }}
-                    className='w-full h-60 relative'
+                    className='w-full h-60 md:h-80 relative'
                     >
                       <Image src="/static/nft.png" alt="NFT preview card" fill style={{objectFit: "contain"}} />
                   </motion.div>

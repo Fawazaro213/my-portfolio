@@ -20,6 +20,7 @@ function Skill({ directionLeft }: Props) {
             x: 0,
             opacity: 1
         }}
+        viewport ={{once: true}}
         className='rounded-full border
          border-gray-500 object-cover w-24 h-24 
          md:w-28 md:h-28 xl:w-32 xl:h-32 filter
