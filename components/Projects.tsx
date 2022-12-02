@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion'
+import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 
@@ -27,10 +28,10 @@ const Projects = () => {
                
             <div
             className="w-screen flex-shrink-0 snap-center
-            flex flex-col space-y-5 items-center justify-center p-20
+            flex flex-col space-y-5 items-center justify-center p-10
             md:p-44 h-screen"
             >
-                  <motion.img
+                  <motion.div
                     initial ={{
                       y: -100,
                       opacity: 0
@@ -38,13 +39,15 @@ const Projects = () => {
                     transition ={{ duration: 1.2 }}
                     whileInView ={{ opacity: 1, y: 0, }}
                     viewport ={{ once: true }}
-                    className='w-70 h-60 sm:h-40'
-                     src="\static\youtube.png" alt="youtube web" />
+                    className='w-full h-60 relative'
+                    >
+                      <Image src="/static/youtube.png" alt="youtube web" fill style={{objectFit: "contain"}} />
+                    </motion.div>
 
                     <div className='space-y-5 px-0 md:px-10'>
                         <h4 className='text-3xl md:text-4xl font-semibold text-center'>
-                      <Link href={'https://github.com/Fawazaro213/youtube-clone'}>
-                          <span className='underline decoration-[#2d858b]/50'>Case Study 1 of 5:</span> 
+                      <Link href={'https://fawazaro213.github.io/youtube-clone/'} target='_blank'>
+                          <span className='underline decoration-[#2d858b]/50'>Case Study 1 of 6:</span> 
                       </Link>
                           Youtube Clone</h4>
 
@@ -79,7 +82,8 @@ const Projects = () => {
             flex flex-col space-y-5 items-center justify-center p-20
             md:p-44 h-screen"
             >
-                  <motion.img
+
+              <motion.div
                     initial ={{
                       y: -100,
                       opacity: 0
@@ -87,13 +91,67 @@ const Projects = () => {
                     transition ={{ duration: 1.2 }}
                     whileInView ={{ opacity: 1, y: 0, }}
                     viewport ={{ once: true }}
-                    className='w-70 h-40'
-                    src="\static\anime-nft.png" alt="AnimeNFT Market-place" />
+                    className='w-full h-60 relative'
+                    >
+                      <Image src="/static/joke.png" alt="joke web" fill style={{objectFit: "contain"}} />
+                  </motion.div>
 
                     <div className='space-y-5 px-0 md:px-10'>
                         <h4 className='text-3xl md:text-4xl font-semibold text-center'>
-                      <Link href={'https://ebay-clone-p7nltqqwe-fawazaro213.vercel.app/'}>
-                          <span className='underline decoration-[#2d858b]/50'>Case Study 2 of 5:</span> 
+                      <Link href={'https://fawazaro213.github.io/Joke-Teller/'}  target='_blank'>
+                          <span className='underline decoration-[#2d858b]/50'>Case Study 2 of 6:</span> 
+                      </Link>
+                          Joke Teller</h4>
+
+                          <div className='flex flex-row space-x-1'>
+                         <div className='flex items-center space-x-2 justify-center'>
+                            <img
+                            className='h-10 w-10'
+                            src="\static\html-5.png" alt="" />
+
+        </div>
+                          <div className='flex items-center space-x-2 justify-center'>
+                            <img
+                            className='h-10 w-10'
+                            src="\static\css.png" alt="" />
+
+        </div>
+                          <div className='flex items-center space-x-2 justify-center'>
+                            <img
+                            className='h-10 w-10'
+                            src="\static\java-script.png" alt="" />
+
+        </div>
+                         </div>
+
+                          <p className='text-lg text-center md:text-left'>
+                          made a joke teller with html ,CSS and JavaScript  </p>
+                    </div>
+            </div>
+          
+            <div
+            className="w-screen flex-shrink-0 snap-center
+            flex flex-col space-y-5 items-center justify-center p-10
+            md:p-44 h-screen"
+            >
+
+                <motion.div
+                    initial ={{
+                      y: -100,
+                      opacity: 0
+                    }}
+                    transition ={{ duration: 1.2 }}
+                    whileInView ={{ opacity: 1, y: 0, }}
+                    viewport ={{ once: true }}
+                    className='w-full h-60 relative'
+                    >
+                      <Image src="/static/anime-nft.png" alt="AnimeNFT Market-place" fill style={{objectFit: "contain"}} />
+                  </motion.div>
+
+                    <div className='space-y-5 px-0 md:px-10'>
+                        <h4 className='text-3xl md:text-4xl font-semibold text-center'>
+                      <Link href={'https://ebay-clone-p7nltqqwe-fawazaro213.vercel.app'} target='_blank'>
+                          <span className='underline decoration-[#2d858b]/50'>Case Study 3 of 6:</span> 
                     </Link>
                           AnimeNFT Market-place</h4>
 
@@ -138,10 +196,11 @@ const Projects = () => {
 
             <div
             className="w-screen flex-shrink-0 snap-center
-            flex flex-col space-y-5 items-center justify-center p-20
+            flex flex-col space-y-5 items-center justify-center p-10
             md:p-44 h-screen"
             >
-                  <motion.img
+
+                <motion.div
                     initial ={{
                       y: -100,
                       opacity: 0
@@ -149,13 +208,15 @@ const Projects = () => {
                     transition ={{ duration: 1.2 }}
                     whileInView ={{ opacity: 1, y: 0, }}
                     viewport ={{ once: true }}
-                    className='w-70 h-60 sm:40'
-                     src="\static\quote.png" alt="Quote Web" />
+                    className='w-full h-60 relative'
+                    >
+                      <Image src="/static/quote.png" alt="Quote Web" fill style={{objectFit: "contain"}} />
+                  </motion.div>
 
                     <div className='space-y-5 px-0 md:px-10'>
                         <h4 className='text-3xl md:text-4xl font-semibold text-center'>
-                          <Link href={'https://github.com/Fawazaro213/quote'}>
-                          <span className='underline decoration-[#2d858b]/50'>Case Study 3 of 5:</span> 
+                          <Link href={'https://fawazaro213.github.io/quote/'} target='_blank'>
+                          <span className='underline decoration-[#2d858b]/50'>Case Study 4 of 6:</span> 
                           </Link>
                           Quote Generator</h4>
 
@@ -187,10 +248,11 @@ const Projects = () => {
 
             <div
             className="flex-shrink-0 snap-center
-            flex flex-col space-y-5 items-center justify-center p-44
+            flex flex-col space-y-5 items-center justify-center p-10
             md:p-44 h-screen"
             >
-                  <motion.img
+            
+                <motion.div
                     initial ={{
                       y: -100,
                       opacity: 0
@@ -198,13 +260,15 @@ const Projects = () => {
                     transition ={{ duration: 1.2 }}
                     whileInView ={{ opacity: 1, y: 0, }}
                     viewport ={{ once: true }}
-                    className='max-w-40 h-60 sm:h-40'
-                     src="\static\landing-page.png" alt="Product Landing Page" />
+                    className='w-full h-60 relative'
+                    >
+                      <Image src="/static/landing-page.png" alt="Product Landing Page" fill style={{objectFit: "contain"}} />
+                  </motion.div>
 
                     <div className='space-y-5 px-0 md:px-10'>
                         <h4 className='text-3xl md:text-4xl font-semibold text-center'>
-                          <Link href={'https://github.com/Fawazaro213/project-landing-page-'}>
-                          <span className='underline decoration-[#2d858b]/50'>Case Study 4 of 5:</span><br /> 
+                          <Link href={'https://fawazaro213.github.io/project-landing-page/'} target='_blank'>
+                          <span className='underline decoration-[#2d858b]/50'>Case Study 5 of 6:</span><br /> 
                           </Link>
                           Product Landing Page</h4>
                           <div className='flex flex-row space-x-1'>
@@ -229,10 +293,11 @@ const Projects = () => {
 
             <div
             className="w-screen flex-shrink-0 snap-center
-            flex flex-col space-y-5 items-center justify-center p-20
+            flex flex-col space-y-5 items-center justify-center p-10
             md:p-44 h-screen"
             >
-                  <motion.img
+
+              <motion.div
                     initial ={{
                       y: -100,
                       opacity: 0
@@ -240,13 +305,15 @@ const Projects = () => {
                     transition ={{ duration: 1.2 }}
                     whileInView ={{ opacity: 1, y: 0, }}
                     viewport ={{ once: true }}
-                    className='w-70 h-60'
-                     src="\static\nft.png" alt="NFT preview card" />
+                    className='w-full h-60 relative'
+                    >
+                      <Image src="/static/nft.png" alt="NFT preview card" fill style={{objectFit: "contain"}} />
+                  </motion.div>
 
                     <div className='space-y-5 px-0 md:px-10 '>
                         <h4 className='text-3xl md:text-4xl font-semibold text-center'>
-                          <Link href={'https://github.com/Fawazaro213/NFT-preview-card'}>
-                          <span className='underline decoration-[#2d858b]/50'>Case Study 5 of 5:</span> 
+                          <Link href={'https://github.com/Fawazaro213/NFT-preview-card'} target='_blank'>
+                          <span className='underline decoration-[#2d858b]/50'>Case Study 6 of 6:</span> 
                           </Link>
                           NFT preview card</h4>
 

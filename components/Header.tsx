@@ -40,11 +40,13 @@ function Header() {
               transparent'/>
             ))} */}
 
-            <SocialIcon url='https://twitter.com/FawazAyo4' fgColor='gray' bgColor='
+            <SocialIcon url='https://twitter.com/FawazAyo4' target={'_blank'} fgColor='gray' bgColor='
               transparent'/>
-            <SocialIcon url='https://web.facebook.com/profile.php?id=100087080444446' fgColor='gray' bgColor='
+            <SocialIcon url='https://web.facebook.com/profile.php?id=100087080444446' target={'_blank'} fgColor='gray' bgColor='
               transparent'/>
-            <SocialIcon url='https://github.com/Fawazaro213' fgColor='gray' bgColor='
+            <SocialIcon url='https://github.com/Fawazaro213' target={'_blank'} fgColor='gray' bgColor='
+              transparent'/>
+            <SocialIcon url='https://www.linkedin.com/in/fawaz-a-662a52202/' target={'_blank'} fgColor='gray' bgColor='
               transparent'/>
         </motion.div>
 

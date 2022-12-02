@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import Link from "next/link";
 import React from "react";
+import Image from 'next/image'
 import { Cursor, useTypewriter } from "react-simple-typewriter";
 import BackgroundCircles from "./BackgroundCircles";
 
@@ -16,12 +17,12 @@ function Hero() {
       items-center justify-center text-center overflow-hidden"
     >
       <BackgroundCircles />
-      <img
+      <div
         className="relative rounded-full h-32 w-32
-         mx-auto object-cover"
-        src= "/static/profile.jpg"
-        alt="My profile"
-      />
+         mx-auto object-cover relative"
+      >
+        <Image src= "/static/profile.jpg" fill alt="My profile" className="rounded-full" style={{objectFit: "contain"}}/>
+      </div>
 
       <div className="z-20">
         <h2
