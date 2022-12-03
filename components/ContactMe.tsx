@@ -36,7 +36,7 @@ function ContactMe() {
         Contact
       </h4>
 
-      <div className="flex flex-col space-y-5 pt-[10%] md:pt-[0%]">
+      <div className="flex flex-col space-y-5 pt-[10%] md:pt-[0%] pb-[5%]">
         <h4 className="text-2xl  font-semibold text-center">
           I have got what you need.{" "}
           <span className="underline decoration-[#2d858b]/50">Lets Talk.</span>

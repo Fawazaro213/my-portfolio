@@ -26,7 +26,7 @@ const Home = () => {
         <meta property="og:type" content="website"/>
         <meta property="og:url" content="https://my-portfolio-fawazaro213.vercel.app/"/>
         <meta property="og:image" content="https://my-portfolio-fawazaro213.vercel.app//web.png"/>
-        <link rel="icon" type="image/png" href="/favicon.png" />
+        <link rel="icon" type="image/png" href="/favicon.png"  />
       </Head>
       {/* Header */}
       <Header />
