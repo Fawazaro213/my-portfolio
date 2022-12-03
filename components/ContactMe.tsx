@@ -29,14 +29,14 @@ function ContactMe() {
     transition ={{
         duration: 1.5
     }}
-    className="flex relative flex-col text-center md:text-left md:flex-row max-w-7xl px-10 h-screen justify-evenly mx-auto items-center">
+    className="flex flex-col text-center md:text-left md:flex-col max-w-7xl px-10 h-screen justify-evenly mx-auto items-center">
       <h4
-        className="absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl"
+        className="mt-24 uppercase tracking-[20px] text-gray-500 text-2xl"
       >
         Contact
       </h4>
 
-      <div className="flex flex-col space-y-5 pt-[35%] md:pt-[14%]">
+      <div className="flex flex-col space-y-5 pt-[10%] md:pt-[0%]">
         <h4 className="text-2xl  font-semibold text-center">
           I have got what you need.{" "}
           <span className="underline decoration-[#2d858b]/50">Lets Talk.</span>

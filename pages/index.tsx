@@ -22,10 +22,11 @@ const Home = () => {
       <Head>
         <title>Aro Fawaz</title>
         <meta name="title" content="Aro-okoya fawaz || @arofawaz123"/>
-        <meta name="description" content="Hi! I'm Aro Fawaz.A computer science student. Self-taught programmer. I specialize in fullstack development. I love to build good products and service to help solve problems in the society. I consider myself a responsible and orderly person."/>
+        <meta name="description" content="Hi! I'm Aro Fawaz. A computer science student. Self-taught programmer. I specialize in fullstack development. I love to build good products and service to help solve problems in the society. I consider myself a responsible and orderly person."/>
         <meta property="og:type" content="website"/>
         <meta property="og:url" content="https://my-portfolio-fawazaro213.vercel.app/"/>
         <meta property="og:image" content="https://my-portfolio-fawazaro213.vercel.app//web.png"/>
+        <link rel="icon" type="image/png" href="/favicon.png"  />
         <link rel="icon" type="image/png" href="/favicon.png" />
       </Head>
       {/* Header */}
